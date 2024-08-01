@@ -16,7 +16,6 @@ from fun_crop import imgCrop
 # model = pickle.load(open('./modelp.p', 'rb'))
 model = pickle.load(open('modelp_3_2_24.p', 'rb'))
 
-
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
