@@ -9,12 +9,14 @@ import time
 import threading
 from gtts import gTTS
 from playsound import playsound
+import os
 
 from fun_crop import imgCrop
 
 # Load your model
 # model = pickle.load(open('./modelp.p', 'rb'))
 model = pickle.load(open('modelp_3_2_24.p', 'rb'))
+
 
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
@@ -33,7 +35,7 @@ st.title("Hindi Sign Language Recognition")
 
 # Initialize the webcam capture
 cap = cv2.VideoCapture(0)
-
+ 
 imgframe = st.empty()
 char = st.empty()
 sent = st.empty()
@@ -52,7 +54,6 @@ recognized_characters = ""
 #         sent.markdown(larger_font_text,unsafe_allow_html=True)
 
 # while st.checkbox("Run the application", True):
-
 confirmation_timer = 0
 is_confirming = False
 append = False
@@ -305,22 +306,15 @@ while True:
             recognized_characters = recognized_characters + "\u0020"+"\u0020"
 
             #for text to speech
-            last_word = ""
-            len_rc = len(recognized_characters) - 1
+            if(len(recognized_characters)>0):
 
+                date_string = datetime.datetime.now().strftime("%d%m%Y%H%M%S")
+                filename = "hindi" + date_string + ".mp3"
+                obj = gTTS(text=  "\u0020"+"\u0020" +recognized_characters,slow=True, lang='hi')
+                obj.save(filename)
 
-            # while(len_rc>0):
-            #     last_word += recognized_characters[len_rc]
-            #     len_rc = len_rc-1
-                
-            # if(last_word!=''):
-            #     date_string = datetime.datetime.now().strftime("%d%m%Y%H%M%S")
-            #     filename = "hindi" + date_string + ".mp3"
-            #     obj = gTTS(text= last_word,slow=False, lang='hi')
-            #     obj.save(filename)
-
-            #     playsound(filename)
-
+                playsound(filename)
+                os.remove(filename)
             print("4:",recognized_characters)
             confirmation_timer2 = time.time()
         confirmation_timer = time.time()
