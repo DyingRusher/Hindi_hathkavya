@@ -14,7 +14,7 @@ from fun_crop import imgCrop
 
 # Load your model
 # model = pickle.load(open('./modelp.p', 'rb'))
-model = pickle.load(open('D:\hindi hathkavya 1\FINAL_SGP\modelp_3_2_24.p', 'rb'))
+model = pickle.load(open('modelp_3_2_24.p', 'rb'))
 
 
 mp_hands = mp.solutions.hands
