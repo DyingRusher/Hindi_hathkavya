@@ -17,6 +17,7 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 ## Installation
 
 1. Clone the repo:   
-   "git clone https://github.com/DyingRusher/Hindi_hathkavya.git"
+   `git clone https://github.com/DyingRusher/Hindi_hathkavya.git`
+   
 
 
