@@ -8,9 +8,9 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 
 ## Features
 
-*Real-Time Detection: Processes live video input to identify hand signs instantaneously.
+* Real-Time Detection: Processes live video input to identify hand signs instantaneously.
 
-*High Accuracy: Employs robust algorithms to ensure precise recognition of hand gestures.
+* High Accuracy: Employs robust algorithms to ensure precise recognition of hand gestures.
 
-*User-Friendly Interface: Designed for intuitive use, making it accessible to a broad audience.
+* User-Friendly Interface: Designed for intuitive use, making it accessible to a broad audience.
 
