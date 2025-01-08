@@ -1,4 +1,4 @@
-Hindi Hand Sign Language Detection
+#Heading1 Hindi Hand Sign Language Detection
 
 Approximately 6.3% of India's population experiences hearing or speaking impairments, underscoring the need for effective communication tools. Our project, "Hindi Hand Sign Language Detection," aims to bridge this gap by developing a real-time system that accurately recognizes Hindi hand signs.
 
