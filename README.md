@@ -14,3 +14,9 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 
 * User-Friendly Interface: Designed for intuitive use, making it accessible to a broad audience.
 
+## Installation
+
+1. Clone the repo:
+   'git clone https://github.com/DyingRusher/Hindi_hathkavya.git'
+
+
