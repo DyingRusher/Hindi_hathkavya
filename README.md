@@ -28,9 +28,7 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 1. Run the Application:
    `python main.py`
 2. Interact with the System:
-
-*  Use a webcam to display hand signs in front of the camera.
-* The system will detect and display the corresponding Hindi character or word.
+** The system will detect and display the corresponding Hindi character or word.
 
    
    
