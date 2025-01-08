@@ -17,7 +17,22 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 ## Installation
 
 1. Clone the repo:   
-   `git clone https://github.com/DyingRusher/Hindi_hathkavya.git`
+   `git clone https://github.com/DyingRusher/Hindi_hathkavya.git`  
+2. Navigate to the Project Directory:  
+   `cd Hindi_hathkavya`  
+3. Install Dependencies:
+   `pip install -r requirements.txt`
+
+   
+## Usage  
+1. Run the Application:
+   `python main.py`
+2. Interact with the System:
+
+*  Use a webcam to display hand signs in front of the camera.
+* The system will detect and display the corresponding Hindi character or word.
+
+   
    
 
 
