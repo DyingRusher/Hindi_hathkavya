@@ -25,10 +25,19 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 
    
 ## Usage  
+
 1. Run the Application:
    `python main.py`
 2. Interact with the System:
-** The system will detect and display the corresponding Hindi character or word.
+* The system will detect and display the corresponding Hindi character or word.
+
+## Contributing  
+
+We welcome contributions to enhance this project. Please fork the repository and submit a pull request with your proposed changes.  
+
+## Acknowledgments    
+
+This project is a collaborative effort by Arjav Ankoliya, Vatsal Jajadiya, and Goldi Ladani.
 
    
    
