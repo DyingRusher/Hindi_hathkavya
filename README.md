@@ -20,7 +20,7 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
    `git clone https://github.com/DyingRusher/Hindi_hathkavya.git`  
 2. Navigate to the Project Directory:  
    `cd Hindi_hathkavya`  
-3. Install Dependencies:
+3. Install Dependencies:  
    `pip install -r requirements.txt`
 
    
@@ -29,7 +29,7 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 1. Run the Application:
    `python main.py`
 2. Interact with the System:
-* The system will detect and display the corresponding Hindi character or word.
+   For adding vanjan(consanant) hold that sign for 3 sec, and for adding matra(vowal) hold sign for 5 sec.For adding space do not detect any hand for 3 sec.
 
 ## Contributing  
 
