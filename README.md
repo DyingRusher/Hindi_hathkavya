@@ -26,7 +26,7 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
 ## Usage  
 
 1. Run the Application:
-   `python main.py`
+   `streamlit run main.py`
 2. Interact with the System:  
    For adding vanjan(consanant) hold that sign for 3 sec, and for adding matra(vowal) hold sign for 5 sec.For adding space do not detect any hand for 3 sec.  
    (Demo is attached below)
