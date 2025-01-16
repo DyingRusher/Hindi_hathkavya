@@ -22,7 +22,6 @@ We collected a dataset of 12,000 images for training and used Mediapipe to extra
    `cd Hindi_hathkavya`  
 3. Install Dependencies:  
    `pip install -r requirements.txt`
-
    
 ## Usage  
 
@@ -40,7 +39,12 @@ We welcome contributions to enhance this project. Please fork the repository and
 
 This project is a collaborative effort by Arjav Ankoliya, Vatsal Jajadiya, and Goldi Ladani.
 
-   
+## demo
+
+
+https://github.com/user-attachments/assets/5abb7b66-69c8-4cd8-a1b6-a62b0fefeea8
+
+
    
 
 
